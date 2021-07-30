@@ -56,4 +56,4 @@ const filterData = (data, hour, value, key = "MasterExecution") => {
   return `Machine was ${value} ${result / 1000} seconds`;
 };
 
-console.log(filterData(data, 15, "READY"));
+console.log(filterData(data, 15, "ACTIVE"));
